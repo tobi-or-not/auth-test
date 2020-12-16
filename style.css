@@ -1,5 +1,5 @@
 @font-face {
-  font-family: myFirstFont;
+  font-family: "HM Sans Regular";
   src: url(https://s1-cdn.hm.com/global/hm-fonts/4.0.1/font/HMSansLatin-Regular.woff2);
 }
 
@@ -28,6 +28,10 @@ body {
 
 .intro {
   text-align: center;
+}
+
+.intro h1 {
+  font-size: 20px;
 }
 
 .error.itemLevel {
