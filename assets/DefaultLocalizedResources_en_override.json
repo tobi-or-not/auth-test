@@ -25,8 +25,8 @@
       "ElementType": "ClaimType",
       "ElementId": "email",
       "StringId": "DisplayName",
-      "Override": false,
-      "Value": "Email Address"
+      "Override": true,
+      "Value": "Email"
     },
     {
       "ElementType": "ClaimType",
