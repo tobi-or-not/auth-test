@@ -10,8 +10,56 @@
     <meta name="GOOGLEBOT" content="NOARCHIVE">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=yes">
+     <link rel="stylesheet" href="style.css">
     <body>
-      <div id="api"></div>
+      <div class="page-wrapper">
+      <div id="api">
+        <form id="localAccountForm" action="JavaScript:void(0);" class="localAccount" aria-label="Sign in with your email address">
+          <div class="intro">
+            <h2 aria-level="1">
+              Sign in with your email address
+            </h2>
+          </div>
+          <div class="error pageLevel" aria-hidden="true" role="alert" style="display: none;">
+            <p></p>
+          </div>
+          <div class="entry">
+            <div class="entry-item">
+              <label for="email">
+                Email Address
+              </label>
+              <div class="error itemLevel" aria-hidden="true" role="alert" style="display: none;">
+                <p></p>
+              </div>
+              <input type="email" id="email" name="Email Address" title="Please enter a valid Email Address" pattern="^[a-zA-Z0-9!#$%&amp;amp;&amp;#39;+^_`{}~-]+(?:\.[a-zA-Z0-9!#$%&amp;amp;&amp;#39;+^_`{}~-]+)*@(?:[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?\.)+[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?$" autofocus="" placeholder="Email Address" value="" aria-label="Email Address">
+            </div>
+            <div class="entry-item">
+              <div class="password-label">
+                <label for="password">Password</label>
+                <a id="forgotPassword" href="/hmciamdev.onmicrosoft.com/B2C_1_signInUpTestTobias/api/CombinedSigninAndSignup/forgotPassword?csrf_token=RXVjbW5oV3h1eU9NNXVFTitRWExyQkVnbSs2dmtPYXMycFNHbENkd3FXLzFPY1JrOWIwOUNuVEZMNWxBK1JsNW96VGRIOE01TE83V1pNN0RQaW9EVWc9PTsyMDIwLTEyLTE2VDEzOjQxOjM0LjkwNjIzOTNaO0tXd2trNHg3K2xrSzJZWU5Ua0U2T0E9PTt7Ik9yY2hlc3RyYXRpb25TdGVwIjoxfQ==&amp;tx=StateProperties=eyJUSUQiOiI1YmY5Y2IyMC04ZmFjLTQ3MDMtYWQyOC02NmVmYzczNzM0MTUifQ&amp;p=B2C_1_signInUpTestTobias">Forgot your password?</a>
+              </div>
+              <div class="error itemLevel" aria-hidden="true" style="display: none;">
+                <p role="alert"></p>
+              </div>
+              <input type="password" id="password" name="Password" placeholder="Password" aria-label="Password" autocomplete="current-password" aria-required="true">
+            </div>
+            <div class="working"></div>
 
+
+            <div class="buttons">
+              <button id="next" type="submit" form="localAccountForm">Sign in</button>
+            </div>
+          </div>
+          <div class="divider">
+            <h2>OR</h2>
+          </div>
+          <div class="create">
+            <p>
+            Don't have an account?<a id="createAccount" href="/hmciamdev.onmicrosoft.com/B2C_1_signInUpTestTobias/api/CombinedSigninAndSignup/unified?local=signup&amp;csrf_token=RXVjbW5oV3h1eU9NNXVFTitRWExyQkVnbSs2dmtPYXMycFNHbENkd3FXLzFPY1JrOWIwOUNuVEZMNWxBK1JsNW96VGRIOE01TE83V1pNN0RQaW9EVWc9PTsyMDIwLTEyLTE2VDEzOjQxOjM0LjkwNjIzOTNaO0tXd2trNHg3K2xrSzJZWU5Ua0U2T0E9PTt7Ik9yY2hlc3RyYXRpb25TdGVwIjoxfQ==&amp;tx=StateProperties=eyJUSUQiOiI1YmY5Y2IyMC04ZmFjLTQ3MDMtYWQyOC02NmVmYzczNzM0MTUifQ&amp;p=B2C_1_signInUpTestTobias">Sign up now</a>
+            </p>
+          </div>
+        </form>
+      </div>
+      </div>
     </body>
 </html>

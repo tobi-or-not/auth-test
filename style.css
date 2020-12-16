@@ -1,0 +1,103 @@
+@font-face {
+  font-family: myFirstFont;
+  src: url(https://s1-cdn.hm.com/global/hm-fonts/4.0.1/font/HMSansLatin-Regular.woff2);
+}
+
+body {
+  background-color: #faf9f8;
+  font-family: "HM Sans Regular","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro",Osaka,"メイリオ",Meiryo,"ＭＳ Ｐゴシック","MS PGothic",sans-serif;
+}
+
+.page-wrapper {
+  max-width: 540px;
+  margin: auto;
+  padding: 20px 60px 60px;
+}
+
+#api {
+  max-width: 420px;
+}
+
+.entry-item {
+  margin: 13px 0;
+}
+
+#forgotPassword {
+  display: none;
+}
+
+.divider {
+}
+
+label {
+  font-size: 13px;
+  line-height: 20px;
+  clear: both;
+  color: #222;
+  display: block;
+  margin: 6px 0 7px;
+}
+
+input {
+  border: 1px solid #d0d0d0;
+  border-radius: 0;
+  box-sizing: border-box;
+  color: #222;
+  font-size: 16px;
+  letter-spacing: normal;
+  margin: 0;
+  padding: 14px 25px 14px 10px;
+  width: 100%;
+}
+
+button {
+  margin-top: 15px;
+  width: 100%;
+  font-size: 13px;
+
+  min-height: 1em;
+  padding: 16px 16px 16px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: none;
+  text-transform: uppercase;
+  vertical-align: baseline;
+
+  font-style: normal;
+  letter-spacing: 1px;
+  line-height: 1em;
+
+  user-select: none;
+  background: #222 none;
+  border: 1px solid #222;
+  border-radius: none;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+}
+
+#createAccount {
+  background-color: #faf9f8;
+  border-color: #707070;
+  color: #707070;
+  text-shadow: none;
+
+  text-decoration: none;
+
+  margin: 20px 0 0;
+  max-width: 386px;
+
+  display: block;
+  border: solid black 1px;
+
+  text-align: center;
+color: black;
+text-transform: uppercase;
+
+  padding: 16px 16px 16px 16px;
+  font-size: 13px;
+
+  font-weight: bold;
+}
