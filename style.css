@@ -26,7 +26,17 @@ body {
   display: none;
 }
 
-.divider {
+.intro {
+  text-align: center;
+}
+
+.error.itemLevel {
+  color: #e50010;
+  font-size: 11px;
+}
+
+.highlightError {
+  border-color: #e50010;
 }
 
 label {
